@@ -22,7 +22,7 @@ baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 max_related_posts: 4
-permalink: 'pretty'
+permalink: 'date'
 
 # Build settings
 markdown: kramdown
