@@ -21,6 +21,8 @@ url: "https://sapidlabs.com" # the base hostname & protocol for your site
 baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
+max_related_posts: 4
+permalink: 'date'
 
 # Build settings
 markdown: kramdown
@@ -38,9 +40,5 @@ defaults:
 # ga_tracking_id: "UA-XXXX-1"
 
 # Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+plugins:
+  - jekyll-seo-tag
