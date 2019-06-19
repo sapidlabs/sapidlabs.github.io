@@ -33,6 +33,10 @@
 
 <script src="{{ site.baseurl }}/js/main.js"></script>
 
+{% if site.ga_tracking_id and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+{% endif %}
+
 <!--
 /*
  * Airspace

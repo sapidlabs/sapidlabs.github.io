@@ -37,7 +37,7 @@ defaults:
       author: "Abhishek"
 
 # Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+ga_tracking_id: "UA-50048206-11"
 
 # Category descriptions (for archive pages)
 plugins:
