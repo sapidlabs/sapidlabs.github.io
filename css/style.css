@@ -32,3 +32,36 @@
 .post-area a:hover {
   color: #0D0017;
 }
+
+.img-50 {
+  width: 50%;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.p-t-10 {
+  padding-top: 10px;
+}
+
+.p-t-20 {
+  padding-top: 20px;
+}
+
+.p-t-50 {
+  padding-top: 30px;
+}
+
+.intro {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+div.prefooter {
+  background: #ffffff;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 55px;
+}

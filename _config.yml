@@ -39,6 +39,6 @@ defaults:
 # Google analytics
 ga_tracking_id: "UA-50048206-11"
 
-# Category descriptions (for archive pages)
 plugins:
   - jekyll-seo-tag
+  - jekyll-font-awesome-sass
