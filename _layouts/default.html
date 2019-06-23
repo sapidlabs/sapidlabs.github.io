@@ -19,9 +19,9 @@
 
 
 
-    {% unless page.prefooter == false %}
+    {% if page.prefooter == true %}
       {% include pre_footer.html %}
-    {% endunless %}
+    {% endif %}
 
     {% include footer.html %}
 
