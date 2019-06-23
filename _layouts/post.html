@@ -1,10 +1,11 @@
 ---
 layout: page
+prefooter: true
 ---
 
 <div class="post">
   <!-- Wrapper Start -->
-  <section id="intro" style="border: 1px dotted #ddd;">
+  <section id="intro">
     <div class="container">
       <div class="row">
         <div>
@@ -14,13 +15,13 @@ layout: page
               <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
             </div>
             <hr />
-            {{ content }}
+            <div class="post-container">
+              {{ content }}
+            </div>
           </div>
         </div><!-- .col-md-7 close -->
       </div>
     </div>
   </section>
 </div>
-<p class="center-text" style="padding: 30px;">
-  <a href="{{ site.baseurl }}/">Back to blog</a>
-</p>
+

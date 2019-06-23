@@ -27,6 +27,16 @@
   color: #0D0017;
 }
 
+.post-container {
+  padding: 40px;
+}
+
+.post-container p {
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  color: #404040;
+}
+
 .img-50 {
   width: 50%;
 }

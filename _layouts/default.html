@@ -19,8 +19,10 @@
 
 
 
+    {% unless page.prefooter == false %}
+      {% include pre_footer.html %}
+    {% endunless %}
 
-    {% include pre_footer.html %}
     {% include footer.html %}
 
     </body>
