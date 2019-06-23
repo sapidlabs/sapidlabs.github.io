@@ -3,6 +3,7 @@ layout: post
 title: "Updates in Ruby 2.7.0-preview1"
 meta: "Ruby 2.7.0 Introduction"
 categories: "ruby"
+tags: Ruby
 ---
 
 There are couple of new features introduced to Ruby 2.7-preview, so we thought we should give it a try! You can do as well as we do.

@@ -4,3 +4,5 @@ gemspec
 gem 'jekyll-seo-tag'
 
 gem 'jekyll-font-awesome-sass'
+
+gem 'jekyll-paginate'

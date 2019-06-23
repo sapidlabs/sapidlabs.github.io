@@ -23,7 +23,8 @@ cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 max_related_posts: 4
 permalink: 'date'
-
+paginate: 6
+paginate_path: "/blog/:num"
 # Build settings
 markdown: kramdown
 
@@ -42,3 +43,4 @@ ga_tracking_id: "UA-50048206-11"
 plugins:
   - jekyll-seo-tag
   - jekyll-font-awesome-sass
+  - jekyll-paginate
