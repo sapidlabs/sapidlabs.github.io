@@ -28,8 +28,13 @@
 }
 
 .post-container {
-  padding: 40px;
+  padding: 10px;
 }
+
+/*#intro div.post-container > p:nth-child(1) > img {
+  width: 80%;
+}
+*/
 
 .post-container p {
   font-size: 18px;
