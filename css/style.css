@@ -46,6 +46,10 @@
   width: 50%;
 }
 
+.img-50-imp{
+  width: 50% !important;
+}
+
 html, body {
   overflow-x: hidden;
 }
