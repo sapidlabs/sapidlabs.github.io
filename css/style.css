@@ -172,3 +172,11 @@ div.prefooter {
 .disabled a:hover {
   background-color: transparent;
 }
+
+.message {
+  background: #F6F8FA;
+  height: 135px;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  width: 100%;
+}
