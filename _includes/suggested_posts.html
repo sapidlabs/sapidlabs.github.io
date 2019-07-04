@@ -1,7 +1,26 @@
+{% assign count = 0 %}
+
 {% for post in include.posts %}
-  <h3>
-    <a href="{{ post.url | prepend: site.baseurl }}">
-      {{ post.title }}
-    </a>
-  </h3>
+  {% if count == 3 %}
+    {% break %}
+  {% endif %}
+
+  {% if page.title != post.title %}
+
+    <div class="col-md-4">
+      <div class="panel panel-default fixed-height-panel">
+        <div class="panel-body">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="suggested-post-heading truncate">
+            {{ post.title }}
+          </a>
+          <div>
+            {{ post.content | markdownify |strip_html | truncatewords: 20 }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% assign count = count | plus: 1 %}
+
+  {% endif %}
 {% endfor %}

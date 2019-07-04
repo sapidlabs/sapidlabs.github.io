@@ -9,6 +9,17 @@
  .center-text {
    text-align: center;
  }
+ .fixed-height-panel {
+  height: 115px;
+ }
+
+ .truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: inline-block;
+ }
 
 .post-area {
   padding: 40px;
@@ -29,6 +40,10 @@
 
 .post-container {
   padding: 10px;
+}
+
+.suggested-post-heading {
+  font-size: 18px;
 }
 
 /*#intro div.post-container > p:nth-child(1) > img {
@@ -114,6 +129,10 @@ div.prefooter {
 
 .general-post {
   border-top: 5px solid #428bca;
+}
+
+.post-panel {
+  height: 221px;
 }
 
 /* Pagination */
