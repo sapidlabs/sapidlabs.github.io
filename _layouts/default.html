@@ -6,8 +6,9 @@
 
   </head>
   <body>
-
-    {% include elements/_fb_chat.html %}
+    {% if jekyll.environment == 'production' %}
+      {% include elements/_fb_chat.html %}
+    {% endif %}
 
     {% include header.html %}
 

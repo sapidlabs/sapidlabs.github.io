@@ -5,10 +5,10 @@
   {% endif %}
 
   <div class="col-md-6">
-    <div class="panel panel-default grid-item {{ class_name | default: 'general-post' }}">
+    <div class="panel panel-default post-panel {{ class_name | default: 'general-post' }}">
       <div class="panel-body">
         <h2>
-          <a href="{{ post.url | prepend: site.baseurl }}">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="truncate">
             {{ post.title }}
           </a>
         </h2>
