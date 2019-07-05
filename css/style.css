@@ -12,6 +12,9 @@
  .fixed-height-panel {
   height: 115px;
  }
+ .p-20 {
+  padding: 20px;
+ }
 
  .truncate {
   white-space: nowrap;
