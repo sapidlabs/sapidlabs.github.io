@@ -1,5 +1,9 @@
 <!-- footer Start -->
-<footer>
+{% if page.fixed_footer %}
+  {%- assign class_name = 'navbar-fixed-bottom' -%}
+{% endif %}
+
+<footer class="{{ class_name }}">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
