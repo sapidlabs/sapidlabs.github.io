@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Add Negative Scope For All Enum Values"
-meta: "Add negative scope for all enum values"
+title: "Negative Scope in Rails 6"
+meta: "negative scope rails-6 sapidlabs"
 categories: "rails"
 tags: rails-6 ruby-on-rails
 ---
