@@ -12,9 +12,11 @@ This Recommends checking out our previous post on, the usage of [Stack widget](h
 
 Ok Done? So let's get started.
 
-### How to use Postioned Widget in flutter
+<br />
 
-[Positioned Widget](https://api.flutter.dev/flutter/widgets/Positioned-class.html), As the name suggests It is something related to position of some widget. Right !! Positioned is a widget provided by flutter, that controls where a child of Stack is positioned.
+### How to use Postioned Widget in flutter?
+
+[Positioned Widget](https://api.flutter.dev/flutter/widgets/Positioned-class.html), as the name suggests It is something related to position of some widget. Right !! Positioned widget allow us to control where a child of Stack is positioned, within [Stack](https://sapidlabs.com/flutter/2019/09/07/how-to-use-stack-widget-flutter.html).
 
 
 So referring to our previous example, of a Stack with three colored container in it. Let's wrap them up into a `Positioned` widget.
@@ -77,10 +79,23 @@ Stack(
 ),
 ...
 ```
+<br />
+
+### Positioned Widget Options
+
+1. `top` : The distance that the child's top edge.
+2. `left` : The distance that the child's left edge.
+3. `width` : Width of the child. ***This overrides the Child Container height if any**
+4. `height` : Height of the child. ***This overrides the Child Container height if any**
+5. `right` : The distance that the child's right edge.
+6. `bottom` : The distance that the child's bottom edge.
+
+<br />
+
+### App Preview
 
 <img src="{{ site.base_url }}/assets/images/positioned-widget-flutter/stack_positioned_app.png" class="img img-center img-50-imp" alt="stack-app-flutter">
 
-As you can see in the example, we were able to place all the three containers using `Positioned` widget.
 
 
 [flutter]: /assets/images/shared/flutter-sapidlabs.jpg
