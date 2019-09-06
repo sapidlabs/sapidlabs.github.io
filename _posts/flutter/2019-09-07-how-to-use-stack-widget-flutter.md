@@ -10,6 +10,7 @@ tags: flutter dart flutter-weekly
 
 If you are wondering, checkout our 2 minute read post [What is flutter](https://sapidlabs.com/flutter/2019/08/12/what-is-flutter.html). Since Everything in flutter is a Widget. It is good to have a basic understanding of what a particular widget does. We will be picking up one widget per weekly to explain about it in brief about it. Keep yourself updated.
 
+<br />
 
 ### What is Stack in flutter?
 
@@ -17,7 +18,7 @@ If you are wondering, checkout our 2 minute read post [What is flutter](https://
 
 Stack can have two types of child widgets within them. These are [Positioned](https://api.flutter.dev/flutter/widgets/Positioned-class.html) and Non-positioned widgets.
 
-Postioned - Those which are wrapped within [Positioned]() widget, something like the following:
+Postioned - Those which are wrapped within [Positioned](https://sapidlabs.com/flutter/2019/09/07/how-to-use-positioned-widget-in-flutter.html) widget, something like the following:
 
 ```dart
 Positioned(
@@ -71,13 +72,20 @@ Stack(
   ],
 ...
 ```
+<br />
+
+### App Preview
 
 <img src="{{ site.base_url }}/assets/images/stack-widget-flutter/stack_app.png" class="img img-center img-50-imp" alt="stack-app-flutter">
 
 As you can see in the example, that the Green was provided as the first child so it is bottom most amoung the three containers and Indigo colored container being at the top, and the Red one is in middle.
 
-## Using Postioned Widget with Stack widget.
+### Using Postioned Widget with Stack widget.
+<br />
 
-The `Positioned` widget when used with stack widget allows to position child widget within the space. Let's see how : [How to use Positioned Widget with Stack?]() (2 min read.)
+
+<br />
+
+The `Positioned` widget when used with stack widget allows to position child widget within the space. Let's see how : [How to use Positioned Widget with Stack?](https://sapidlabs.com/flutter/2019/09/07/how-to-use-positioned-widget-in-flutter.html) (2 min read.)
 
 [flutter]: /assets/images/shared/flutter-sapidlabs.jpg
