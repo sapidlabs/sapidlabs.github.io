@@ -45,3 +45,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-font-awesome-sass
   - jekyll-paginate
+  - jekyll-sitemap
