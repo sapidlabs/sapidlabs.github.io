@@ -4,6 +4,12 @@ title: "Updates in Ruby 2.7.0-preview1"
 meta: "Ruby 2.7.0 Introduction"
 categories: "ruby"
 tags: Ruby
+description: "There are couple of new features introduced to Ruby 2.7-preview, so we thought we should give it a try! You can do as well as we do. Lets checkout updates in ruby 2.7"
+keywords:
+ - updates in ruby 2.7
+ - latest ruby version updates
+ - new in ruby 2.7
+ - new in ruby
 ---
 
 There are couple of new features introduced to Ruby 2.7-preview, so we thought we should give it a try! You can do as well as we do.
@@ -149,6 +155,6 @@ Multi-threaded programs in ruby can cause these fragmentation in memory, which l
 
 An Illustration describing issue and solution:
 
-![Compaction GC in Ruby 2.7.0][ruby_compaction]
+![Updates in ruby 2.7][ruby_compaction]
 
 [ruby_compaction]: /assets/images/updates-in-ruby-2-7-0-preview1/ruby-2-7-0-gc-compaction.png
