@@ -4,6 +4,12 @@ title: "How to use Stack Widget flutter?"
 meta: "how to use stack widget flutter"
 categories: "flutter"
 tags: flutter dart flutter-weekly
+description: "Our new post which is part of flutter weekly, presents how to use Stack widget in flutter with ease."
+keywords:
+ - flutter weekly
+ - how to use stack widget flutter
+ - using stack widget in flutter
+ - how to use positioned widget in flutter
 ---
 
 ![Flutter - How to use Stack Widget in flutter][flutter]

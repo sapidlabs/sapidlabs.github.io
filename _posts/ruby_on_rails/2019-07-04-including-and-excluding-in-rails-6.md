@@ -14,15 +14,14 @@ keywords:
 
 <img src="{{ site.base_url }}{{ site.default_rails_image }}" alt="{{ page.title }}">
 
-### Including and Excluding in Rails-6
-
 Rails 6 has been very exciting since it has so many features, which we found quite helpful from development perspective.
 
 Let's have a few method that has been added worth looking at `including` and `excluding`.
 
 <br />
 
-### Excluding
+<h1 class="light">Using #excluding in Rails 6</h1>
+
 Previously this was provided as `without` for `Enumerable#without` or `Array#without` returns the array without the provided value as a parameter.
 
 Example:
@@ -49,7 +48,7 @@ Example:
 ```
 <br />
 
-### Including
+<h1 class="light">Including</h1>
 Rails-6 adds `including` method as a counter part to `excluding` or `without` method. `including` does what excluding does, in opposite manner. It includes the passed value as parameter along with the Array or Enumerable on which it was invoked.
 
 Example:

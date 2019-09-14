@@ -8,7 +8,7 @@ tags: rails-6 ruby-on-rails
 
 ![Rails 6 Tutorials - SapidLabs][rails]
 
-### Rails 6 Adds negative scope for all enum values
+# Rails 6 Adds negative scope for all enum values
 
 Rails 6 provide with some extra stuffs added to it lately which simplifies the daily tasks. If you have used rails previously like we did very often, then you must be knowing that we quite often, stumbled upon a situation where we need Negative scope for a defined enum values.
 

@@ -4,15 +4,21 @@ title: "Flutter ListGroup package"
 meta: "list group flutter sapidlabs"
 categories: "flutter"
 tags: flutter dart
+description: "Our new post is about how to create list group in flutter. list_group is a flutter package which facilitates creation of grouped list items in flutter."
+keywords:
+  - create grouped list flutter
+  - how to group list items in flutter
+  - bootstrap style list group in flutter
+  - how to use list group item package in flutter
 ---
 
 ![Flutter - SapidLabs][flutter]
 
-### ListGroup package flutter
+<h1 class="light">ListGroup package flutter</h1>
 
 We are happy to announce, we have started contributing to the flutter community. Recently we released [ListGroup](https://pub.dev/packages/list_group).
 
-### ListGroup
+<h1 class="light">ListGroup</h1>
 
 A flutter package that enables flutter developer to use Grouped list in flutter, which looks something like:
 
@@ -20,7 +26,7 @@ A flutter package that enables flutter developer to use Grouped list in flutter,
 
 <img src="{{ site.base_url }}/assets/images/list-group-flutter-package/list_group_preview.jpg" class="img-center img-50-imp">
 
-### Basics
+<h1 class="light">Basics of ListGroup Package flutter</h1>
 
 Group list can be easily generated with use of two primary Widgets that list_group package provides i.e `ListGroup` and `ListGroupItem`.
 
@@ -44,7 +50,7 @@ Run the following command to fetch the package.
 
 <br />
 
-### Example Implementation
+<h1 class="light">Example Implementation of ListGroup in flutter</h1>
 
 ```dart
 import 'package:list_group/list_group.dart';
@@ -87,14 +93,14 @@ ListGroup(
 
 <br />
 
-### ListGroup
+<h1 class="light">ListGroup</h1>
 
 The list group widget expects `items` to be List of `ListGroupItem`. This is similar to `DropDownButton` and `DropDownMenuItem` structure.
 
 
 <br />
 
-### ListGroupItem
+<h1 class="light">ListGroupItem</h1>
 
 This makes up the list items within this list group.
 
