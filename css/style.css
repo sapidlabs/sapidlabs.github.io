@@ -16,6 +16,11 @@
   padding: 20px;
  }
 
+ h1.light {
+  font-weight: 300;
+  font-size: 28px;
+ }
+
  .truncate {
   white-space: nowrap;
   overflow: hidden;

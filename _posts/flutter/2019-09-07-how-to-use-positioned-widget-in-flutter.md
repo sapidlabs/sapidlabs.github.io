@@ -4,6 +4,12 @@ title: "How to use positioned widget in flutter?"
 meta: "sapidlabs positioned widget flutter"
 categories: "flutter"
 tags: flutter dart flutter-weekly
+description: "Our new post which is part of flutter weekly, presents how to use Stack and Positioned Widget in flutter with ease."
+keywords:
+  - flutter weekly
+  - flutter stack widget example
+  - flutter positioned widget example
+  - stack and positioned widget example
 ---
 
 ![Flutter - Stack and Postioned Widget][flutter]
@@ -14,7 +20,7 @@ Ok Done? So let's get started.
 
 <br />
 
-### How to use Postioned Widget in flutter?
+<h1 class="light">How to use Postioned Widget in flutter?</h1>
 
 [Positioned Widget](https://api.flutter.dev/flutter/widgets/Positioned-class.html), as the name suggests It is something related to position of some widget. Right !! Positioned widget allow us to control where a child of Stack is positioned, within [Stack](https://sapidlabs.com/flutter/2019/09/07/how-to-use-stack-widget-flutter.html).
 
@@ -81,7 +87,7 @@ Stack(
 ```
 <br />
 
-### Positioned Widget Options
+<h1 class="light">Positioned Widget Options</h1>
 
 1. `top` : The distance that the child's top edge.
 2. `left` : The distance that the child's left edge.
