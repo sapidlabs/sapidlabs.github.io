@@ -1,0 +1,22 @@
+<div class="container {{ include.container_class }}">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3>Blog &amp; Tutorials</h3>
+    </div>
+    <div class="container">
+      {% if include.left_to_right %}
+
+      {% include services/_blog_image.html image_class='img-left' %}
+
+      {% include services/_flutter_blog_text.html %}
+
+      {% else %}
+
+      {% include services/_flutter_blog_text.html %}
+
+      {% include services/_blog_image.html image_class='img-center' %}
+
+      {% endif %}
+    </div>
+  </div>
+</div>
