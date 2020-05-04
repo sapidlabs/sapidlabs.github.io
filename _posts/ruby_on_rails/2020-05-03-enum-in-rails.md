@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Enum in Rails"
-meta: "enum rails-6 sapidlabs"
+title: "How to use Enum in Rails"
+meta: "enum rails-6 sapidlabs ruby on rails"
 categories: "rails"
-tags: rails-6 ruby-on-rails
+tags: rails-6 ruby-on-rails enum
 ---
 
 ![Enum in Rails - SapidLabs][rails]
