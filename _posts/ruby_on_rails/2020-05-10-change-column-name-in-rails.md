@@ -3,7 +3,7 @@ layout: post
 title: "Changing column name in rails"
 meta: "enum rails-6 sapidlabs ruby on rails change column name"
 categories: "rails"
-tags: rails-6 ruby-on-rails enum
+tags: rails-6 ruby-on-rails rename column
 ---
 
 ![Ruby On Rails - SapidLabs][rails]
