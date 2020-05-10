@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Changing column name in rails"
-meta: "enum rails-6 sapidlabs ruby on rails change column name"
+title: "How to rename column name in Rails"
+meta: "rename_column rails-6 sapidlabs"
 categories: "rails"
-tags: rails-6 ruby-on-rails rename column
+tags: rails-6 ruby-on-rails
 ---
 
 ![Ruby On Rails - SapidLabs][rails]
 
-# Changing column name in Rails
+# Rails `rename_column` 
 Rails provides a simple method `rename_column` which can be used in a migration.
 
 <br />
