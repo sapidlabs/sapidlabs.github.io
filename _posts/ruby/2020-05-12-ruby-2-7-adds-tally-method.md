@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ruby adds Enumerable#tally"
+title: "Ruby 2.7 adds Enumerable#tally"
 meta: "ruby enumerable tally sapidlabs"
 categories: "ruby"
 tags: 'Ruby'
