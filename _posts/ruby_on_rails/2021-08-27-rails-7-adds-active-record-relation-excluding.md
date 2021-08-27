@@ -30,7 +30,6 @@ post_1 = Post.find(1)
 # Find all posts without post_1
 Post.excluding(post_1)
 ```
-
 <br/>
 
 
