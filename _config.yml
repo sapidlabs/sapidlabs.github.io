@@ -21,7 +21,7 @@ url: "https://sapidlabs.com" # the base hostname & protocol for your site
 baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
-max_related_posts: 4
+max_related_posts: 3
 permalink: 'date'
 paginate: 6
 paginate_path: "/blog/:num"
