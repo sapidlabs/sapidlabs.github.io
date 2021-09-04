@@ -29,6 +29,13 @@ bundle
 rails -v
 > Rails 7.0.0.alpha
 ```
+Rails 7 is now available to be used in the intialized repository. 🥳
+
 <br/>
 
-Rails 7 is now available to be used in the intialized repository. 🥳
+<b>Note:</b> As of now, the latest `main` branch has some issues related to `spring` gem, so you can use `ref: 3dd44a7d14af411d98eaddb0921bfe3a0a45c144` commit is stable and can be used for testing.
+
+```ruby
+  # In Gemfile
+  gem 'rails', github: 'rails/rails', branch: 'main', ref: '3dd44a7d14af411d98eaddb0921bfe3a0a45c144'
+```

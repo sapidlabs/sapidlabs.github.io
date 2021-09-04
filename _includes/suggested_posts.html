@@ -1,7 +1,7 @@
 {% assign count = 0 %}
 
 {% for post in include.posts %}
-  {% if count == 3 %}
+  {% if count == site.max_related_posts %}
     {% break %}
   {% endif %}
 
