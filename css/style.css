@@ -33,6 +33,11 @@
   display: inline-block;
  }
 
+ .max-width {
+   max-width: 100%;
+   display: block;
+ }
+
 .post-area {
   padding: 40px;
   width: 100%;
