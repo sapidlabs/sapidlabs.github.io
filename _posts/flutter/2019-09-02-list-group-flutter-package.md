@@ -24,7 +24,7 @@ A flutter package that enables flutter developer to use Grouped list in flutter,
 
 <br />
 
-<img src="{{ site.base_url }}/assets/images/list-group-flutter-package/list_group_preview.jpg" class="img-center img-50-imp">
+<img src="{{ site.base_url }}/assets/images/list-group-flutter-package/list_group_preview.jpg" class="img-center img-50 max-width">
 
 <h1 class="light">Basics of ListGroup Package flutter</h1>
 
