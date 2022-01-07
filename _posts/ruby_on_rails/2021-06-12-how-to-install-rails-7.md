@@ -32,3 +32,6 @@ rails -v
 Rails 7 is now available to be used in the intialized repository. 🥳
 
 See Official Announcement from DHH, [Fulfilling A Vision](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision)
+
+<hr />
+We are offering solutions to numerous business out there. [Improve your business with us!](https://forms.gle/u99tr1qmG1kKPWWF8)
