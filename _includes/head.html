@@ -4,6 +4,8 @@
 
 {% if page.description %}
   <meta name="description" content="{{ page.description | escape }}">
+{% elsif page.title %}
+  <meta name="description" content="{{ page.title | escape }}">
 {% else %}
   <meta name="description" content="Sapidlabs is a Ruby on Rails consulting company based in Delhi India, we are experts in building web and mobile applications using Ruby on Rails, Vue JS, Flutter.">
 {% endif %}
