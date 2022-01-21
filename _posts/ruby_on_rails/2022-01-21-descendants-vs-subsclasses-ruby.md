@@ -23,5 +23,5 @@ Descendants has been a part of Rails [ActiveSupport::DescendantsTracker](https:/
   => [ChildA, ChildB]
 ```
 
-`descendants` return all the child classes and `subclasses` only returns child classes directly associated to parent class.
+Notice: `descendants` return all the child classes and `subclasses` only returns child classes directly associated to parent class.
 
