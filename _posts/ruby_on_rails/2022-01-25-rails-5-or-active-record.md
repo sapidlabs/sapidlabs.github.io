@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rails 5 adds OR activerecord method"
+title: "Rails 5 adds OR Activerecord method"
 categories: "rails"
 tags: rails-5 ruby-on-rails
 ---
